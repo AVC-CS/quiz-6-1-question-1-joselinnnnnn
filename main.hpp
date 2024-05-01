@@ -66,7 +66,7 @@ int getPrevPrime(int end){
     if(prime){
       cout << maybePrime << endl;
       return maybePrime;
-      break;
+    
     }
      maybePrime = maybePrime-1;
   }
